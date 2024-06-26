@@ -1,6 +1,4 @@
-package med.voll.api.medico;
-
-import med.voll.api.endereco.Endereco;
+package med.voll.api.domain.medico;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -8,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import med.voll.api.domain.endereco.Endereco;
 import jakarta.persistence.Id;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
